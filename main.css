@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #171515;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 24px;
+}
+
+#app {
+    margin: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#atributos {
+    display: flex;
+    flex-direction: row;
+}
+
+#atributos div {
+    margin: 10px;
+
+    margin-right: 200px;
+}
+
+#atributos div img {
+    margin: -30px;
+}
+
+#input {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+input {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+button {
+    background-color: rgba(0, 0, 0, .3);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
