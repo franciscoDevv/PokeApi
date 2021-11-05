@@ -4,8 +4,7 @@ const sendnum = document.getElementById('button');
 button.addEventListener('click', () => {
         const num = document.getElementById('num').value;
 
-        if (num.length == 0 || num .value <= 0 || num.value >= 899) {
-            
+        if (num.length == 0 || num .value <= 0 || num.value >= 899) { 
             app.innerHTML = `<p style="text-align: center">Ingrese un numero válido por favor 👾</p>`
         }
 
@@ -22,7 +21,7 @@ button.addEventListener('click', () => {
         app.innerHTML = `
         <div id="atributos">
         <div>Nombre: ${data.name} <br> Altura: ${data.height * 10} cm <br> Peso: ${data.weight} kg</div>
-        <div><img src="${data.sprites.front_default}" height="150"></div>
+        <div><img src="${data.sprites.front_default}" height="300"></div>
         </div>
         `;
         document.getElementById('num').value = "";

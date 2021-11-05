@@ -6,17 +6,19 @@ body {
     color: white;
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 24px;
+    background-image: url(img/bg.png);
 }
 
 #app {
     margin: 50px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .9);
     padding: 20px;
     border-radius: 10px;
 }
 
 #atributos {
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -30,6 +32,10 @@ body {
     margin: -30px;
 }
 
+#atributos div {
+    font-size: 40px;
+}
+
 #input {
     margin: auto;
     margin-left: auto;
@@ -38,7 +44,7 @@ body {
 }
 
 input {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .9);
     padding: 15px;
     border-radius: 15px;
     color: white;
@@ -46,7 +52,7 @@ input {
 }
 
 button {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .9);
     border: none;
     padding: 15px;
     border-radius: 15px;
@@ -55,12 +61,18 @@ button {
 }
 
 #alert {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .9);
     margin: 0 300px;
     padding: 1px;
     margin-top: 10px;
     border-radius: 10px;
     display: none;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #app p {
@@ -71,3 +83,27 @@ button {
     transition: .6s;
     font-size: 30px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 150px;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, .9);
+}
+#footer p {
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
