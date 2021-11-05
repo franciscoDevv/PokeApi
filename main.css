@@ -53,3 +53,21 @@ button {
     color: white;
     cursor: pointer;
 }
+
+#alert {
+    background-color: rgba(0, 0, 0, .3);
+    margin: 0 300px;
+    padding: 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#app p {
+    transition: .6s;
+}
+
+#app p:hover {
+    transition: .6s;
+    font-size: 30px;
+}

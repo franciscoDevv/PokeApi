@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>PokeApi</title>
 	<link rel="stylesheet" href="main.css">
 	<!-- Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,11 @@
 </head>
 <body>
 	<div id="input">
-		<center><input type="text" id="num" placeholder="Ingrese un numero">
-		<button id="button">Enviar</button>
+		<center><input type="text"  id="num" placeholder="Ingrese un numero" required>
+		<button id="button" type="number">Enviar</button>
+		<div id="alert">
+			<p>Porfavor, ingrese un valor.	</p>
+		</div>
 		</center>
 	</div>
 	<div id="app">
