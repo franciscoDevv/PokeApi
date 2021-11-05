@@ -10,8 +10,8 @@ button.addEventListener('click', () => {
 		const app = document.getElementById('app');
 		app.innerHTML = `
 		<div id="atributos">
-		<div>${data.name}</div>
-		<div><img src="${data.sprites.front_default}" height="100"></div>
+		<div>Nombre: ${data.name} <br> Altura: ${data.height * 10} cm <br> Peso: ${data.weight} kg</div>
+		<div><img src="${data.sprites.front_default}" height="150"></div>
 		</div>
 		`;
 		document.getElementById('num').value = "";
